@@ -16,7 +16,7 @@
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 12px;
-    padding: 2%;
+    padding: 0%;
 
 }
 
@@ -101,4 +101,8 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     cursor: pointer;
+}
+
+#pics{
+    padding: 0%;
 }

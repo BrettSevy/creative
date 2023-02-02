@@ -1,4 +1,4 @@
-import logo from '..//img/Logo.png';
+import logo from '..//img/logo2.png';
 import '../Header/Header.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, } from 'react-bootstrap'
@@ -30,8 +30,8 @@ function Header() {
                         <Navbar.Toggle className="coloring" />
                         <Navbar.Collapse>
                             <Nav className="position-absolute top-50 end-0 translate-middle">
-                                <Nav.Link href="#about">About</Nav.Link>
                                 <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                                <Nav.Link href="#about">About</Nav.Link>
                                 <Nav.Link href="#services">Services</Nav.Link>
                                 {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
                             </Nav>

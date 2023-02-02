@@ -17,8 +17,9 @@ function App() {
     <div className="App">
       <Header/>
       <ControlledCarousel/>
+      <Gallery/>
       <About></About>
-      <Gallery></Gallery>
+      {/* <Gallery></Gallery> */}
       <Services></Services>
 
       {/* <!-- Call to action--> */}

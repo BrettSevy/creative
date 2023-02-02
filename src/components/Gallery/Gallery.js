@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 // import { useState } from 'react';
 import './Gallery.css';
 
-// import image1 from "./images/1.jpg";
-// import image2 from "./images/2.jpg";
+
 // import image3 from "./images/3.jpg";
 // import image4 from "./images/4.jpg";
 // import image5 from "./images/5.jpg";
@@ -26,7 +25,7 @@ import image21 from "./images/21.jpg";
 import image22 from "./images/22.jpg";
 import image23 from "./images/23.jpg";
 import image24 from "./images/24.jpg";
-import image25 from "./images/25.jpg";
+// import image25 from "./images/25.jpg";
 import image26 from "./images/26.jpg";
 import image27 from "./images/27.jpg";
 import image28 from "./images/28.jpg";
@@ -49,12 +48,28 @@ import image44 from "./images/44.jpg";
 import image45 from "./images/45.jpg";
 import image46 from "./images/46.jpg";
 import image47 from "./images/47.jpg";
+import image48 from "./images/48.jpg";
+import image49 from "./images/49.jpg";
+import image50 from "./images/50.jpg";
+import image51 from "./images/51.jpg";
+import image52 from "./images/52.jpg";
+import image53 from "./images/53.jpg";
+import image54 from "./images/54.jpg";
+import image55 from "./images/55.jpg";
+import image56 from "./images/56.jpg";
+import image57 from "./images/57.jpg";
+import image58 from "./images/58.jpg";
+import image59 from "./images/59.jpg";
+import image60 from "./images/60.jpg";
+import image61 from "./images/61.jpg";
 
 
 
 const Gallery = () => {
 
   const data = [
+    
+   
     {
       id: 6,
       imgSrc: image6,
@@ -149,11 +164,11 @@ const Gallery = () => {
       imgSrc: image24,
 
     },
-    {
-      id: 25,
-      imgSrc: image25,
+    // {
+    //   id: 25,
+    //   imgSrc: image25,
 
-    },
+    // },
     {
       id: 26,
       imgSrc: image26,
@@ -262,6 +277,76 @@ const Gallery = () => {
     {
       id: 47,
       imgSrc: image47,
+
+    },
+    {
+      id: 48,
+      imgSrc: image48,
+
+    },
+    {
+      id: 49,
+      imgSrc: image49,
+
+    },
+    {
+      id: 50,
+      imgSrc: image50,
+
+    },
+    {
+      id: 51,
+      imgSrc: image51,
+
+    },
+    {
+      id: 52,
+      imgSrc: image52,
+
+    },
+    {
+      id: 53,
+      imgSrc: image53,
+
+    },
+    {
+      id: 54,
+      imgSrc: image54,
+
+    },
+    {
+      id: 55,
+      imgSrc: image55,
+
+    },
+    {
+      id: 56,
+      imgSrc: image56,
+
+    },
+    {
+      id: 57,
+      imgSrc: image57,
+
+    },
+    {
+      id: 58,
+      imgSrc: image58,
+
+    },
+    {
+      id: 59,
+      imgSrc: image59,
+
+    },
+    {
+      id: 60,
+      imgSrc: image60,
+
+    },
+    {
+      id: 61,
+      imgSrc: image61,
 
     },
 
