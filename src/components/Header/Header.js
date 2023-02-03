@@ -2,6 +2,7 @@ import logo from '..//img/logo2.png';
 import '../Header/Header.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, } from 'react-bootstrap'
+
 // import { Navbar, Nav } from 'react-bootstrap/Navbar'
 
 function Header() {
@@ -12,7 +13,7 @@ function Header() {
                 <div class="container">
                     <div class="row justify-content-md-start">
                         <div class="col col-lg-2">
-                            <Navbar.Brand href="#">
+                            <Navbar.Brand href="root">
                                 <img
                                     alt="Sevy Studios"
                                     src={logo}
@@ -30,10 +31,10 @@ function Header() {
                         <Navbar.Toggle className="coloring" />
                         <Navbar.Collapse>
                             <Nav className="position-absolute top-50 end-0 translate-middle">
-                                <Nav.Link href="portfolio">Portfolio</Nav.Link>
-                                <Nav.Link href="about">About</Nav.Link>
-                                <Nav.Link href="services">Services</Nav.Link>
-                                {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
+                                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                                <Nav.Link href="#about">About</Nav.Link>
+                                <Nav.Link href="#services">Services</Nav.Link>
+                                {/* <Nav.Link href="#footer">contact</Nav.Link> */}
                             </Nav>
                         </Navbar.Collapse>
                     </div>
