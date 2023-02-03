@@ -1,7 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-
 import Gallery from './components/Gallery/Gallery'
 import About from './components/About/About';
 import Services from './components/Services/Services';
