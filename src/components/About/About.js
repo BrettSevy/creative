@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../img/logo2.png';
 import Photo from '../Gallery/images/25.jpg';
-import Social from '../Social/Social';
+// import Social from '../Social/Social';
 
 
 
