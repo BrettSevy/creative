@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '..//img/logo2.png';
+// import { Instagram } from "react-bootstrap-icon";
 
 
 
