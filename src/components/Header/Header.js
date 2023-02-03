@@ -13,7 +13,7 @@ function Header() {
                 <div class="container">
                     <div class="row justify-content-md-start">
                         <div class="col col-lg-2">
-                            <Navbar.Brand href="root">
+                            <Navbar.Brand href="/">
                                 <img
                                     alt="Sevy Studios"
                                     src={logo}
